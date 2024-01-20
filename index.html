@@ -28,6 +28,13 @@
     </script>
 
     <style>
+      .bg-mybody-tertiary {
+        background: rgb(0,0,0);
+        background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,50,0.5634628851540616) 56%, rgba(0,0,0,0) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,50,0.5634628851540616) 56%, rgba(0,0,0,0) 100%);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,50,0.5634628851540616) 56%, rgba(0,0,0,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+      }
       .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='coral' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
       }
@@ -87,10 +94,13 @@
       .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
         color: #fff;
       }
+      .nav-link {
+        color: #DADADA;
+      }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-none fixed-top">
+    <nav class="navbar navbar-expand-lg bg-mybody-tertiary fixed-top">
         <div class="container-xl">
           <a class="navbar-brand" href="index.html"><img class="myLogo" src="image/icons/Primary - jnpereira_O.svg" alt="myLogo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
