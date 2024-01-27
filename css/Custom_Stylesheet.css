@@ -1,3 +1,67 @@
+.bg-mybody-tertiary {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,50,0.5634628851540616) 56%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,50,0.5634628851540616) 56%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,50,0.5634628851540616) 56%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='coral' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .navbar-toggler{
+    border: 2px solid coral;
+    border: none;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .carousel-item {
+    height: 100vh;
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 550px;
+  }
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: ;
+  }
+  .carousel-indicators {
+    min-height: 550px;
+  }
+  .active {
+    font-weight: bold;
+  }
+  .navbar-nav a {
+    font-family: ;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .navbar-nav a:hover {
+    font-family: ;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #CCD1D1;
+  }
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff;
+  }
+  .nav-link {
+    color: #DADADA;
+  }
+
 .myLogo {
     width: 100%;
 }
+
