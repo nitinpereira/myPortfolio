@@ -40,7 +40,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-mybody-tertiary fixed-top">
+    <nav class="navbar navbar-expand-lg bg-mybody-tertiary fixed-top navbar-dark p-md-3">
         <div class="container-xl">
           <a class="navbar-brand" href="index.html"><img class="myLogo" src="image/icons/White - jnpereira_O.svg" alt="myLogo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,7 +100,11 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <p>d. lkgjsdl;g jdlgjs bdlg;jof;lghjsfrh;dhlfk;gnggn;hj;kgh;lj</p>
+      
+      <div class="row">
+        <div class="col"><p>Every project has stakeholders, often with competing ideas of what the ideal version of the final product should be. That’s why feature prioritization is so often a balancing act, one where project teams must weigh the wants, needs, and expectations of different user types, business leaders, and other stakeholders.</p><p>To gain insight into these wants and needs, design agencies like Codal will conduct stakeholder interviews and surveys. The bread-and-butter of almost every UX research phase, these techniques consist of the design team meeting with or surveying key stakeholders — users, admins, managers, supervisors, etc — and learning what they expect from the final product.</p></div>
+      </div>
+
       <!-- Footer -->
       <footer class="footer bg-secondary-subtle">
         <div class="container">
@@ -120,18 +124,16 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script>
-      window.addEventListener('scroll', () => {
-        const navbar = document.querySelector('.navbar');
-        const scrollPosition = window.scrollY;
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
 
-        if (scrollPosition > 0) {
-          navbar.classList.add('navbar-dark');
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
         } else {
-          navbar.classList.remove('navbar-dark');
+          nav.classList.remove('bg-dark', 'shadow');
         }
       });
-
-  </script>
+    </script>
   </body>
 </html>
