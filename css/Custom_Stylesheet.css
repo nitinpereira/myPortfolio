@@ -15,25 +15,6 @@
   .navbar-toggler:focus{
     box-shadow: none;
   }
-  .carousel-item {
-    height: 100vh;
-    min-height: 400px;
-    background: no-repeat center center scroll;
-    -webkit-backdrop-size: cover;
-    background-size: cover;
-  }
-  .carousel-caption {
-    bottom: 550px;
-  }
-  .carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-family: ;
-  }
-  .carousel-indicators {
-    min-height: 550px;
-  }
   .active {
     font-weight: bold;
   }
@@ -64,6 +45,23 @@
 .myLogo {
     width: 100%;
 }
+
+/*Carousel*/
+
+.carousel-item {
+  min-height: 400px;
+  background: no-repeat center center scroll;
+  -webkit-backdrop-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+/*Footer*/
 
 .footer {
   background-color: #333;
